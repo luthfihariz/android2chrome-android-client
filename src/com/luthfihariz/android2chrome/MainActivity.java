@@ -25,7 +25,7 @@ import com.google.api.services.tasks.TasksScopes;
 public class MainActivity extends Activity {
 
 	TextView urlTextView;
-	GoogleAccountCredential credential;
+	GoogleAccountCredential credentials;
 	private static final String PREF_ACCOUNT_NAME = "accountName";
 	static final int REQUEST_GOOGLE_PLAY_SERVICES = 0;
 	static final int REQUEST_AUTHORIZATION = 1;
